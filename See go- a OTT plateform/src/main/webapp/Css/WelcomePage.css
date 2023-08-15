@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+body{
+  background: linear-gradient(to left top, #000428, #004e92);
+  background-attachment: fixed; /*edit*/
+  color: white;
+}
+
+#mainHeading{
+	margin-top:20px;
+	font-family:Courier, monospace;
+	font-size:70px;
+	-webkit-text-stroke-color:white;
+	-webkit-text-stroke-width:0.5px;
+	animation-name: zoom;
+	animation-duration: 1s;
+}
+
+a{
+	text-decoration: none;
+	color: yellow;
+}
+
+#welcometexts{
+	text-shadow: 1px 1px 1px yellow;
+}
+
+#welcometexts:first-letter{
+	font-size: 2em;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	text-shadow: 1px 1px 1px yellow;
+}
+
+#moviesList{
+	border-width: 1px;
+	border-style: inset;
+	border-color: white;
+	border-radius: 5px;
+	padding-left:8px ;
+	padding-bottom:8px ;
+	margin-top: -12%;
+	margin-left: 60%;
+	margin-right: 10%;
+	background: linear-gradient(180deg,#bdc3c7 1%,#2c3e50 10%);
+	transition-duration: 1s;
+	width: 27%;
+}
+
+#logout{
+	position: absolute;
+	left:90%;
+	margin-top: -8%;
+}
+
+figure{
+	margin-top: 7%;
+}
+
+img{
+	border-radius: 8px;
+	transition-duration: 1s;
+}
+
+img:hover{
+	width: 450px;
+}
+
+#sub{
+	margin-top: 1%;
+	position: absolute;
+}
+
+#mail{
+	margin-top:-1%;
+	padding-bottom:1%;
+}
+
+.topPadding{
+	padding-left: 4%;
+}
+
+hr{
+	border: none; /* Remove default border */
+    border-top: 2px solid blue;
+}
+
+#moviesList:hover{
+	transform: scale(1.1);	
+}
+
+@keyframes zoom{
+	0%{
+		font-size: 100px;
+	}
+}
+
+.CLeftPadding{
+	padding-left: 50px;
+}
+
+.move{
+   margin-top: 45px;
+}

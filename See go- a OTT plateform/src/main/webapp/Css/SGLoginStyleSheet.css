@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+body{
+  width: 1200px;
+  height:600px;
+  background-image: url("wallhaven-0w2de6_3840x2160.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
+}
+
+#mainHeading{
+	margin-top:50px;
+	font-family:Courier, monospace;
+	font-size:70px;
+	-webkit-text-stroke-color:white;
+	-webkit-text-stroke-width:0.5px;
+}
+
+#loginBox {
+	border-style: groove;
+	border-radius: 10px;
+	margin-top: 160px;
+    margin-bottom: 120px;
+    margin-left:32%;
+	height: 200px;
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#insideLogin{
+	font-size: 18px;
+}
+
+#caption{
+ 	margin:-50px;
+ 	color: red;
+ 	font-size:large;
+}
+
+.pad{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	text-align: left;
+}
+
+#form{
+	border: solid;
+	background-color: rgba(0,0,0, 0.5);
+	width: 400px;
+	height: 350px;
+	margin-left: 390px;
+	border-radius: 20px;
+	border-width: 1px;
+	/*text-align: left;*/
+}
+
+#signUp{
+	margin-left:2%;
+	margin-top:4%;
+	
+}
+
+#CSignUp{
+	text-decoration: none;
+	color: yellow;
+}
+
+
+#CSignUp:hover{
+	color: blue;
+}
+
+#CSignUp:active{
+	text-shadow: 1px 1px 1px yellow;
+}
+
+.input{
+	border-radius: 4px;
+}
+
+#BSignUp{
+	position: relative;
+	left: 160px;
+	top: 20px;
+}
+
+#loginbtn{
+	position: relative;
+}
+
+#loginbtn:hover{
+	width: 12%;
+	height: 25px;
+	background-color: gray;
+	border-radius: 4px;
+}
+
+input{
+	transition-duration: 3s;
+}

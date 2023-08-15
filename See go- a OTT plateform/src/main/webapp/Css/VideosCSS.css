@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+h1{
+	margin-top:20px;
+	font-family:Courier, monospace;
+	font-size:70px;
+	text-align: center;
+	-webkit-text-stroke-color:white;
+	-webkit-text-stroke-width:0.5px;
+}
+
+.removeLink{
+	text-decoration: none;
+	-webkit-text-stroke-color:white;
+	-webkit-text-stroke-width:0.5px;
+}
+
+*{
+	background: linear-gradient(to left top, #000428, #004e92);
+    background-attachment: fixed; /*edit*/
+}
+
+hr{
+	border: none; /* Remove default border */
+    border-top: 2px solid blue;
+}
+
+#quote{
+	left: 45%;
+}
+
+.videoContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.video{
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+.video-name-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  text-align: center;
+ } 
